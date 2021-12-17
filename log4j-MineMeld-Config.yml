@@ -2,7 +2,7 @@ nodes:
   Log4j-IP-Miner:
     inputs: []
     output: true
-    prototype: greynoise.log4j.IP
+    prototype: log4j.IP
   Log4j-IP-Aggregator:
     inputs:
       - Log4j-IP-Miner
